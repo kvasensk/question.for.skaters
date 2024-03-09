@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>REAL ASK FOR YOU</title>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <img class="main_picture"
+        src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMG5tcjYxczVlanBidXF3YWplazMyeG1pam1hNjg1YzFqN2djamx1aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/mt8MOLOxcAS4lUuF5m/giphy.gif"
+        alt="">
+    </div>
+    <h1 class="question">Кто пойдёт кататься сегодня?</h1>
+    <div class="buttons">
+      <button class="yesButton" onclick="nextPage()">Не иду</button>
+      <button class="noButton" id="btn">Иду!</button>
+      <script defer src="./index.js"></script>
+      <script>
+        function nextPage() {
+          window.location.href = "yes.html"
+        }
+      </script>
+    </div>
+  </div>
+</body>
+
+</html>
