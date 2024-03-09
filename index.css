@@ -72,13 +72,13 @@ button {
   .noButton {
     position: absolute;
     left: 55%;
-    top: 70%;
+    top: 85%;
     transition: 0.09s;
   }
   .yesButton {
     position: absolute;
     left: 20%;
-    top: 70%;
+    top: 85%;
     transition: 0.09s;
   }
 }
